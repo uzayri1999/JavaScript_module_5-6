@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Задание 6.6.2</title>
+    </head>
+
+    <body>
+        <h3>Задание 6.6.2</h3>
+        <p>
+            Есть массив:
+        </p>
+        <div class="code-block">
+            <pre style="margin: 0; line-height: 125%" class="hljs language-rust">    <span class="hljs-keyword">const</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">5</span>, <span class="hljs-number">4</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-symbol">'they</span>', <span class="hljs-symbol">'don</span>\<span class="hljs-string">'t'</span>, <span class="hljs-symbol">'know</span>', <span class="hljs-symbol">'that</span>', <span class="hljs-symbol">'we</span>', <span class="hljs-symbol">'know</span>', <span class="hljs-symbol">'that</span>', <span class="hljs-symbol">'they</span>', <span class="hljs-symbol">'know</span>' ]; 
+            </pre>
+        </div>
+        <p>
+            Создайте новый массив и запишите в него только уникальные значения из массива <code class="inline-code">arr</code>. Выведите получившийся
+            массив в консоль.
+        </p>
+        <p>
+            <b>Входящие значения:</b>
+        </p>
+        <div class="code-block">
+            <pre style="margin: 0; line-height: 125%" class="hljs language-rust">    <span class="hljs-keyword">const</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">5</span>, <span class="hljs-number">4</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-symbol">'they</span>', <span class="hljs-symbol">'don</span>\<span class="hljs-string">'t'</span>, <span class="hljs-symbol">'know</span>', <span class="hljs-symbol">'that</span>', <span class="hljs-symbol">'we</span>', <span class="hljs-symbol">'know</span>', <span class="hljs-symbol">'that</span>', <span class="hljs-symbol">'they</span>', <span class="hljs-symbol">'know</span>' ];
+            </pre>
+        </div>
+        <p>
+            <b>Выходные данные:</b>
+        </p>
+        <div class="code-block">
+            <pre style="margin: 0; line-height: 125%" class="hljs language-css">    <span class="hljs-selector-attr">[1, 2, 3, 5, 4, <span class="hljs-string">'they'</span>, <span class="hljs-string">'don\'t'</span>, <span class="hljs-string">'know'</span>, <span class="hljs-string">'that'</span>, <span class="hljs-string">'we'</span>]</span>;
+            </pre>
+        </div>
+
+        <script src="task_6_6_2.js"></script>
+    </body>
+
+</html>
